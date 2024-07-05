@@ -19,3 +19,12 @@
     color: #543310;
   }
 }
+
+@media screen and (max-width: 500px){
+  .header__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
