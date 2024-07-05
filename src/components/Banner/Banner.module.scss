@@ -1,21 +1,31 @@
 .banner {
   width: 100%;
-  display: block;
+  display: flex;
   text-align: center;
   background-image: url("./assets/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  padding: 150px 0 150px 0;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask {
+  background-color: black;
+  opacity: 30%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-content: center;
 }
 
 .text {
   color: wheat;
-  text-align: center;
-  align-content: center;
   font-family: var(--font-montserrat);
+  position: absolute;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .text {
     text-align: center;
     padding: 0 20px 0 20px;
