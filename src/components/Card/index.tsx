@@ -5,10 +5,8 @@ const Card = ({ image, name, description }: ICafe) => {
   return (
     <section className={styles.card}>
       <img src={image} className={styles.image} />
-      <div>
-        <h2 className={styles.name}>{name}</h2>
-        <p className={styles.desc}>{description}</p>
-      </div>
+      <h2 className={styles.name}>{name}</h2>
+      <p className={styles.desc}>{description}</p>
     </section>
   );
 };
