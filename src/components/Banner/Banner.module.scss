@@ -1,0 +1,16 @@
+.banner {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-image: url("./assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 150px 0 150px 0;
+}
+
+.text {
+  color: wheat;
+  text-align: center;
+  align-content: center;
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  padding: 1%;
+  gap: 10px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.name {
+  font-family: var(--font-montserrat);
+  color: #543310;
+}
+
+.desc {
+  font-family: var(--font-montserrat);
+  color: #74512d;
+  font-size: larger;
+}

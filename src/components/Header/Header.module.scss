@@ -1,0 +1,21 @@
+.header {
+  padding: 2%;
+  width: 100%;
+}
+
+.header__menu {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.header__menu__link {
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--color-terciary);
+  text-decoration: none;
+  &:hover {
+    color: #543310;
+  }
+}

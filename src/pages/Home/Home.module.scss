@@ -1,0 +1,17 @@
+.menu {
+  background-color: #ecb176;
+  margin: 0 5% 2% 5%;
+  border-radius: 12px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 97px;
+}
+
+.text {
+  color: #74512d;
+  font-size: larger;
+  font-family: var(--font-montserrat);
+  font-weight: bold;
+}
