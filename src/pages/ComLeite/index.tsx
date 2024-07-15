@@ -7,6 +7,8 @@ import CappuccinoItaliano from "../../assets/cappuccinoitaliano.jpg";
 import Mocha from "../../assets/mocha.png";
 import FlatWhite from "../../assets/flatwhite.jpg";
 import LatteMacchiato from "../../assets/lattemacchiato.avif";
+import CaffeLatte from "../../assets/caffelatte.jpg";
+import Cortado from "../../assets/cortado.jpg";
 
 const ComLeite = () => {
   return (
@@ -41,6 +43,16 @@ const ComLeite = () => {
           name="Flat White"
           description="Um café com espresso e leite vaporizado, mas com menos espuma do que um cappuccino, resultando em uma textura suave e cremosa. A proporção de leite é maior do que no cappuccino, mas menor do que no latte."
           image={FlatWhite}
+        />
+        <Card
+          name="Cortado"
+          description="Um espresso com uma quantidade igual de leite vaporizado, suavizando a acidez do café sem diluir muito o sabor."
+          image={Cortado}
+        />
+        <Card
+          name="Caffe Latte"
+          description="Um espresso com uma grande quantidade de leite vaporizado e uma fina camada de espuma de leite no topo. É mais leitoso e suave que o cappuccino."
+          image={CaffeLatte}
         />
       </section>
     </>

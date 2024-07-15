@@ -14,6 +14,9 @@ const Header = () => {
         <Link className={styles.header__menu__link} to="./com-leite">
           Com Leite
         </Link>
+        <Link className={styles.header__menu__link} to="./gelados">
+          Gelados
+        </Link>
       </nav>
     </header>
   );
